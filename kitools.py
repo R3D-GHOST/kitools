@@ -14,6 +14,7 @@ blanco = '\033[37m'
 cierre = '\033[39m'
 #almacen de tools
 os.system('mkdir tools')
+os.system('clear')
 #banner
 banner = """
 
