@@ -12,4 +12,4 @@ Y metere mas tools y mas cosas
 Un saludo Familia
 
 
-Verdion 1.0 de kitools
+Version 1.0 de kitools
