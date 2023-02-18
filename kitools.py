@@ -131,7 +131,7 @@ elif opt_menu == "3":
 elif opt_menu == "4":
     os.system('clear')
     print(rosado)
-    print("1 ->> Bettercap")3
+    print("1 ->> Bettercap")
     print("2 ->> SMS Anon")
     print("3 ->> SMS GHOST")
     print("4 ->> God-Killer")
