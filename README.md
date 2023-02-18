@@ -16,8 +16,10 @@ Version 1.1 de kitools
 
 Novedades de la Tienda 
 
-Sniffing Tools 
 Spoofing Tools
 DDoS Tools
+
+Eliminadas de la Tienda
+Wireshark 
 
 Y mas que añadire a su tiempo perdon por mi ausencia estoy enfermo un saludo familia
