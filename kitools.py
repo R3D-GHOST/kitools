@@ -87,7 +87,7 @@ elif opt_menu == "3":
     elif opt_3 == "3":
         os.system('sudo apt install wifite')
     elif opt_3 == "4":
-        os.system('git clone https://github.com/P0cL4bs/WiFi-Pumpkin.git')
+        os.system('cd tools ; git clone https://github.com/P0cL4bs/WiFi-Pumpkin.git')
 elif opt_menu == "4":
     print("1 ->> Bettercap")
     print("2 ->> SMS Anon")
@@ -96,18 +96,18 @@ elif opt_menu == "4":
     if opt_4 == "1":
         os.system('sudo apt install bettercap')
     elif opt_4 == "2":
-        os.system('git clone https://github.com/HACK3RY2J/Anon-SMS.git')
+        os.system('cd tools ; git clone https://github.com/HACK3RY2J/Anon-SMS.git')
     elif opt_4 == "3":
-        os.system('git clone https://github.com/R3D-GHOST/SMS-GHOST.git')
+        os.system('cd tools ; git clone https://github.com/R3D-GHOST/SMS-GHOST.git')
 elif opt_menu == "5":
     print("1 ->> DDoS RIPPER ")
     print("2 ->> DDoS-Network")
     print("3 ->> SlowHttptest")
     opt_5 = input(">>> ")
     if opt_5 == "1": 
-        os.system('git clone https://github.com/palahsu/DDoS-Ripper.git')
+        os.system('cd tools ; git clone https://github.com/palahsu/DDoS-Ripper.git')
     elif opt_5 == "2":
-        os.system('git clone https://github.com/R3D-GHOST/DDoS-Network.git')
+        os.system('cd tools ; git clone https://github.com/R3D-GHOST/DDoS-Network.git')
     elif opt_5 == "3":
         os.system('sudo apt install slowhttptest')
 elif opt_menu == "6":
