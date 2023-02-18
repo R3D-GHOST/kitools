@@ -12,4 +12,12 @@ Y metere mas tools y mas cosas
 Un saludo Familia
 
 
-Version 1.0 de kitools
+Version 1.1 de kitools
+
+Novedades de la Tienda 
+
+Sniffing Tools 
+Spoofing Tools
+DDoS Tools
+
+Y mas que añadire a su tiempo perdon por mi ausencia estoy enfermo un saludo familia
