@@ -49,17 +49,17 @@ if opt_menu == "1":
     print("6 ->> Osintgram")
     opt_1 = input(">>> ")
     if opt_1 == "1":
-        os.system('cd tools ; git clone https://github.com/Lucksi/Mr.Holmes')
+        os.system('cd tools ; git clone https://github.com/Lucksi/Mr.Holmes.git ; cd Mr.Holmes ; sudo python3 MrHolmes.py')
     elif opt_1 == "2":
-        os.system('cd tools ; git clone https://github.com/sherlock-project/sherlock.git')
+        os.system('cd tools ; git clone https://github.com/sherlock-project/sherlock.git ; cd sherlock ; python3 -m pip install -r requirements.txt ')
     elif opt_1 == "3":
-        os.system('sudo pip3 install maigret')
+        os.system('sudo pip3 install maigret ; maigret -h ')
     elif opt_1 == "4":
         os.system('cd tools ; curl -sSL https://raw.githubusercontent.com/sundowndev/phoneinfoga/master/support/scripts/install | bash ')
     elif opt_1 == "5":
-        os.system('cd tools ; git clone https://github.com/R3D-GHOST/The-Ghost-Seeker.git')
+        os.system('cd tools ; git clone https://github.com/R3D-GHOST/The-Ghost-Seeker.git ; cd The-Ghost-Seeker ; sudo bash install.sh')
     elif opt_1 == "6":
-        os.system('cd tools ; git clone https://github.com/Datalux/Osintgram')
+        os.system('cd tools ; git clone https://github.com/Datalux/Osintgram.git ; cd Osintgram ; pip install -r requirements.txt')
 elif opt_menu == "2":
     os.system('clear')
     print(amarillo)
@@ -78,31 +78,31 @@ elif opt_menu == "2":
     print("13 ->> Sql-Scanner")
     opt_2 = input(">>> ")
     if opt_2 == "1":
-        os.system('cd tools ; git clone https://github.com/sqlmapproject/sqlmap.git')
+        os.system('cd tools ; git clone https://github.com/sqlmapproject/sqlmap.git : cd sqlmap ; python3 sqlmap.py -h ')
     elif opt_2 == "2":
-        os.system('sudo apt install nmap')
+        os.system('sudo apt install nmap ; nmap -h ')
     elif opt_2 == "3":
         os.system('sudo apt install burpsuite')
     elif opt_2 == "4":
-        os.system('sudo apt install whatweb')
+        os.system('sudo apt install whatweb ; whatweb -h ')
     elif opt_2 == "5":
-        os.system('cd tools ; git clone https://github.com/R3D-GHOST/Scan-Web.git')
+        os.system('cd tools ; git clone https://github.com/R3D-GHOST/Scan-Web.git ; cd Scan-Web ; python3 scanner.py ')
     elif opt_2 == "6":
-        os.system('cd tools ; git clone https://github.com/Tuhinshubhra/RED_HAWK.git')
+        os.system('cd tools ; git clone https://github.com/Tuhinshubhra/RED_HAWK.git ; cd RED_HAWK ; php rhawk.php')
     elif opt_2 == "7":
-        os.system('apt-get install legion')
+        os.system('sudo apt-get install legion')
     elif opt_2 == "8":
-        os.system('cd tools ; git clone https://github.com/Anteste/WebMap.git')
+        os.system('cd tools ; git clone https://github.com/Anteste/WebMap.git ; cd WebMap ; sudo bash install.sh')
     elif opt_2 == "9":
-        os.system('cd tools ; git clone https://github.com/rpranshu/EternalView.git')
+        os.system('cd tools ; git clone https://github.com/rpranshu/EternalView.git ; cd EternalView ; chmod +x EternalView.sh ; ./EternalView.sh')
     elif opt_2 == "10":
-        os.system('cd tools ; git clone https://github.com/1N3/BlackWidow.git')
+        os.system('cd tools ; git clone https://github.com/1N3/BlackWidow.git ; cd BlackWidow ; sudo bash install.sh')
     elif opt_2 == "11":
-        os.system('cd tools ; git clone https://github.com/six2dez/reconftw.git')
+        os.system('cd tools ; git clone https://github.com/six2dez/reconftw.git ; cd reconftw/ ; sudo bash install.sh')
     elif opt_2 == "12":
-        os.system('cd tools ; git clone https://github.com/BullsEye0/dorks-eye.git')
+        os.system('cd tools ; git clone https://github.com/BullsEye0/dorks-eye.git ; cd dorks-eye ; pip3 install -r requirements.txt')
     elif opt_2 == "13":
-        os.system('cd tools ; git clone https://github.com/Bitwise-01/SQL-scanner.git')
+        os.system('cd tools ; git clone https://github.com/Bitwise-01/SQL-scanner.git ; cd SQL-scanner ; pip install -r requirements.txt')
 elif opt_menu == "3":
     os.system('clear')
     print(calipso)
@@ -115,19 +115,19 @@ elif opt_menu == "3":
     print("7 ->> Evillimiter")
     opt_3 = input(">>> ")
     if opt_3 == "1":
-        os.system('cd tools ; git clone https://github.com/aircrack-ng/aircrack-ng.git')
+        os.system('sudo apt install aircrack-ng ; aircrack-ng --help ')
     elif opt_3 == "2":
-        os.system('sudo apt install airgeddon')
+        os.system('sudo apt install airgeddon ; airgeddon')
     elif opt_3 == "3":
-        os.system('sudo apt install wifite')
+        os.system('sudo apt install wifite ; wifite --help ')
     elif opt_3 == "4":
-        os.system('cd tools ; git clone https://github.com/P0cL4bs/WiFi-Pumpkin.git')
+        os.system('cd tools ; git clone https://github.com/P0cL4bs/WiFi-Pumpkin.git ; cd WiFi-Pumpkin ; sudo bash installer.sh --install')
     elif opt_3 == "5":
-        os.system('cd tools ; git clone https://github.com/mkdirlove/WI-TOOLKIT.git')
+        os.system('cd tools ; git clone https://github.com/mkdirlove/WI-TOOLKIT.git ; cd WI-TOOLKIT : sudo bash install.sh ')
     elif opt_3 == "6":
-        os.system('cd tools ; git clone https://github.com/mkdirlove/AIR-KIT.git')
+        os.system('cd tools ; git clone https://github.com/mkdirlove/AIR-KIT.git ; cd AIR-KIT ; sudo bash air-kit.sh -h')
     elif opt_3 == "7":
-        os.system('cd tools ; git clone https://github.com/bitbrute/evillimiter.git')
+        os.system('cd tools ; git clone https://github.com/bitbrute/evillimiter.git ; cd evillimiter : sudo python3 setup.py install ')
 elif opt_menu == "4":
     os.system('clear')
     print(rosado)
@@ -137,13 +137,13 @@ elif opt_menu == "4":
     print("4 ->> God-Killer")
     opt_4 = input(">>> ")
     if opt_4 == "1":
-        os.system('sudo apt install bettercap')
+        os.system('sudo apt install bettercap ; bettercap --help')
     elif opt_4 == "2":
-        os.system('cd tools ; git clone https://github.com/HACK3RY2J/Anon-SMS.git')
+        os.system('cd tools ; git clone https://github.com/HACK3RY2J/Anon-SMS.git ; cd Anon-SMS ; bash Run.sh')
     elif opt_4 == "3":
-        os.system('cd tools ; git clone https://github.com/R3D-GHOST/SMS-GHOST.git')
+        os.system('cd tools ; git clone https://github.com/R3D-GHOST/SMS-GHOST.git ; cd SMS-GHOST ; bash install.sh ; python3 sms-ghost')
     elif opt_4 == "4":
-        os.system('cd tools ; git clone https://github.com/FDX100/GOD-KILLER.git')
+        os.system('cd tools ; git clone  https://github.com/FDX100/GOD-KILLER.git ; cd GOD-KILLER ; python install.py ; GOD-KILLER')
 elif opt_menu == "5":
     os.system('clear')
     print(cierre)
@@ -152,134 +152,74 @@ elif opt_menu == "5":
     print("3 ->> SlowHttptest")
     opt_5 = input(">>> ")
     if opt_5 == "1": 
-        os.system('cd tools ; git clone https://github.com/palahsu/DDoS-Ripper.git')
+        os.system('cd tools ; git clone https://github.com/palahsu/DDoS-Ripper.git ; cd DDoS-Ripper ; python3 DRipper.py ')
     elif opt_5 == "2":
-        os.system('cd tools ; git clone https://github.com/R3D-GHOST/DDoS-Network.git')
+        os.system('cd tools ; git clone https://github.com/R3D-GHOST/DDoS-Network.git ; cd DDoS-Network ; sudo bash install.sh ; bash DDoS.sh')
     elif opt_5 == "3":
-        os.system('sudo apt install slowhttptest')
+        os.system('sudo apt install slowhttptest ; slowhttptest --help') 
 elif opt_menu == "6":
     os.system('clear')
     print(blanco)
-    print("1 ->> HiddenEye")
-    print("2 ->> PhishX")
-    print("3 ->> Phisher-man")
-    print("4 ->> Blackeye")
-    print("5 ->> Zphisher")
-    print("6 ->> AIOPhish")
-    print("7 ->> Nexphisher")
-    print("8 ->> Evilginx2")
-    print("9 ->> Predator-Phish")
-    print("10 ->> Gophish")
-    print("11 ->> SniperPhish")
-    print("12 ->> LordPhish")
-    print("13 ->> Shellphish")
-    print("14 ->> Black Phish")
-    print("15 ->> Modlishka")
-    print("16 ->> PhishMailer")
-    print("17 ->> Whatsapp-phishing")
-    print("18 ->> AdvPhishing")
-    print("19 ->> YPhish")
-    print("20 ->> Dark Phish")
-    print("21 ->> Masphish (Ocultar url de tu Phishing )")
+    print("1 ->> Phisher-man")
+    print("2 ->> Blackeye")
+    print("3 ->> Zphisher")
+    print("4 ->> AIOPhish")
+    print("5 ->> Whatsapp-phishing")
+    print("6 ->> Masphish (Ocultar url de tu Phishing )")
     phs = input(">>> ")
     if phs == "1":
-       os.system('cd tools ; git clone https://github.com/Morsmalleo/HiddenEye.git')
+        os.system('cd tools ; git clone https://github.com/FDX100/Phisher-man.git ; cd Phisher-man ; python3 app.py  ')
     elif phs == "2":
-        os.system('cd tools ; git clone https://github.com/kucuksemsiyelicocuk/WeebSec-PhishX.git')
+        os.system('cd tools ; git clone https://github.com/The-Burning/blackeye-im.git ; cd blackeye-im ; chmod +x ./setup.sh ; ./setup.sh')
     elif phs == "3":
-        os.system('cd tools ; git clone https://github.com/FDX100/Phisher-man.git')
+        os.system('cd tools ; git clone https://github.com/htr-tech/zphisher.git ; cd zphisher ; bash zphisher.sh')
     elif phs == "4":
-        os.system('cd tools ; git clone https://github.com/The-Burning/blackeye-im.git')
+        os.system('cd tools ; git clone https://github.com/DeepSociety/AIOPhish.git ; cd AIOPhish ; bash install.sh')
     elif phs == "5":
-        os.system('cd tools ; git clone https://github.com/htr-tech/zphisher.git')
+        os.system('cd tools ; git clone https://github.com/Ignitetch/whatsapp-phishing.git ; cd whatsapp-phishing ; chmod 777 Whatsapp.sh ; ./Whatsapp.sh')
     elif phs == "6":
-        os.system('cd tools ; git clone https://github.com/DeepSociety/AIOPhish.git')
-    elif phs == "7":
-        os.system('cd tools ; git clone https://github.com/htr-tech/nexphisher.git')
-    elif phs == "8":
-        os.system('cd tools ; git clone https://github.com/kgretzky/evilginx2.git')
-    elif phs == "9":
-        os.system('cd tools ; git clone https://github.com/tony23x/Predator-Phish.git')
-    elif phs == "10":
-        os.system('cd tools ; git clone https://github.com/gophish/gophish.git')
-    elif phs == "11":
-        os.system('cd tools ; git clone https://github.com/GemGeorge/SniperPhish.git')
-    elif phs == "12":
-        os.system('cd tools ; git clone https://github.com/Black-Hell-Team/LordPhish.git')
-    elif phs == "13":
-        os.system('cd tools ; git clone https://github.com/suljot/shellphish.git')
-    elif phs == "14":
-        os.system('cd tools ; git clone https://github.com/iinc0gnit0/BlackPhish.git')
-    elif phs == "15":
-        os.system('cd tools ; git clone https://github.com/drk1wi/Modlishka.git')
-    elif phs == "16":
-        os.system('cd tools ; git clone https://github.com/BiZken/PhishMailer.git')
-    elif phs == "17":
-        os.system('cd tools ; git clone https://github.com/Ignitetch/whatsapp-phishing.git')
-    elif phs == "18":
-        os.system('cd tools ; git clone  https://github.com/Ignitetch/AdvPhishing.git')
-    elif phs == "19":
-        os.system('cd tools ; git clone https://github.com/thiagous06/YPhish.git')
-    elif phs == "20":
-        os.system('cd tools ; git clone https://github.com/Cyber-Anonymous/Dark-Phish.git')
-    elif phs == "21":
-        os.system('cd tools ; git clone https://github.com/jaykali/maskphish.git')
+        os.system('cd tools ; git clone https://github.com/jaykali/maskphish.git ; cd maskphish ; bash maskphish.sh ')
 elif opt_menu == "7":
     os.system('clear')
     print(verde)
     print("1 ->> Evildroid")
     print("2 ->> ApkWash")
-    print("3 ->> Rafel-Rat")
-    print("4 ->> Backdoor-apk")
-    print("5 ->> Androrat")
-    print("6 ->> Ahmyth-mod")
-    print("7 ->> Ahmyth")
-    print("8 ->> Infect")
+    print("3 ->> Ahmyth")
+    print("4 ->> Infect")
     android = input(">>> ")
     if android == "1":
-       os.system('cd tools ; git clone https://github.com/M4sc3r4n0/Evil-Droid.git')
+       os.system('cd tools ; git clone https://github.com/M4sc3r4n0/Evil-Droid.git ;  cd Evil-Droid ; chmod +x evil-droid ; ./evil-droid')
     elif android == "2":
-        os.system('cd tools ; git clone https://github.com/jbreed/apkwash.git')
+        os.system('cd tools ; git clone https://github.com/jbreed/apkwash.git ; cd apkwash ; chmod +x apkwash ; bash apkwash')
     elif android == "3":
-        os.system('cd tools ; git clone https://github.com/swagkarna/Rafel-Rat,git')
+        os.system('cd tools ; git clone https://github.com/Morsmalleo/AhMyth.git ; cd AhMyth/AhMyth-Server ; sudo bash autoinstall')
     elif android == "4":
-        os.system('cd tools ; git clone https://github.com/dana-at-cp/backdoor-apk.git')
-    elif android == "5":
-        os.system('cd tools ; git clone https://github.com/DesignativeDave/androrat.git')
-    elif android == "6":
-        os.system('cd tools ; git clone https://github.com/HiddenPirates/AhMyth-Modified-Version.git')
-    elif android == "7":
-        os.system('cd tools ; git clone https://github.com/Morsmalleo/AhMyth.git')
-    elif android == "8":
-        os.system('cd tools ; git clone https://github.com/noob-hackers/infect.git')
+        os.system('cd tools ; git clone https://github.com/noob-hackers/infect.git ; cd infect ; bash infect.sh')
 elif opt_menu == "8":
     os.system('clear')
     print(azul)
     print("1 ->> Sombyote")
-    print("2 ->> Pentbox")
-    print("3 ->> Easymacchanger")
-    print("4 ->> 4anonimizer")
-    print("5 ->> Ghost")
-    print("6 ->> Phonesploit")
-    print("7 ->> ADB-Toolkit")
-    print("8 ->> Cam-Hackers")
+    print("2 ->> Easymacchanger")
+    print("3 ->> Ghost")
+    print("4 ->> Phonesploit")
+    print("5 ->> ADB-Toolkit")
+    print("6 ->> Cam-Hackers")
+    print("7 ->> Email-Bomber")
     tools = input(">>> ")
     if tools == "1":
-        os.system('cd tools ; git clone https://github.com/hasanfirnas/symbiote.git')
+        os.system('cd tools ; git clone https://github.com/hasanfirnas/symbiote.git ; cd symbiote ; python3 symbiote.py')
     elif tools == "2":
-        os.system('cd tools ; git clone https://github.com/H4CK3RT3CH/pentbox-1.8.git')
+        os.system('cd tools ; git clone https://github.com/KALILINUXTRICKSYT/easymacchanger.git ; cd easymacchanger ; bash installer.sh')
     elif tools == "3":
-        os.system('cd tools ; git clone https://github.com/KALILINUXTRICKSYT/easymacchanger.git')
-    elif tools == "4":
-        os.system('cd tools ; git clone https://github.com/sysadminmexico/4anonimizer.git')
-    elif tools == "5":
-        os.system('cd tools ; git clone https://github.com/EntySec/Ghost.git')
-    elif tools == "6":
-        os.system('cd tools ; git clone https://github.com/mishab-ka/PhoneSploit.git')
+        os.system('cd tools ; git clone https://github.com/EntySec/Ghost.git ; cd Ghost ; python3 setup.py')
+    elif tools == "":
+        os.system('cd tools ; git clone https://github.com/mishab-ka/PhoneSploit.git ; cd PhoneSploit ; pip install colorama ; python2 main_linux.py')
     elif tools == "7":
-        os.system('cd tools ; git clone https://github.com/ASHWIN990/ADB-Toolkit.git')
+        os.system('cd tools ; git clone https://github.com/ASHWIN990/ADB-Toolkit.git ; cd ADB-Toolkit ; sudo chmod +x install.sh ; sudo ./install.sh -i ')
     elif tools == "8":
-        os.system('cd tools ; git clone https://github.com/AngelSecurityTeam/Cam-Hackers.git')
+        os.system('cd tools ; git clone https://github.com/AngelSecurityTeam/Cam-Hackers.git ; cd Cam-Hackers ; pip install -r requirements.txt ; python3 cam-hackers.py')
+    elif tools == "9":
+        os.system('cd tools ; git clone https://github.com/RIP-Network/Email-Bomber.git ; cd Email-Bomber ; chmod +x email.py ; chmod +x install.sh ; ./install.sh ; python email.py ')
 elif opt_menu == "9":
     exit()
 else:
